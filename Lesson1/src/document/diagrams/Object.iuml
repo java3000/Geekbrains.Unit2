@@ -1,0 +1,9 @@
+@startuml
+
+class Object {
+    + toString(): string
+    + hashcode(): int
+    + equals(Object o): boolean
+}
+
+@enduml

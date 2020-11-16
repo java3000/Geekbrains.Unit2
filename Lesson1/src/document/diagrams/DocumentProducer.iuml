@@ -1,0 +1,10 @@
+@startuml
+
+interface DocumentProducer {
+    + {abstract} createBatch(): Document[]
+}
+
+DocumentProducer <|.. AsiaDocumentProducer
+DocumentProducer <|.. EuropeDocumentProducer
+
+@enduml
