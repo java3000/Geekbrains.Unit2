@@ -1,0 +1,12 @@
+@startuml
+
+interface Document {
+    + {abstract} doCheck(): void
+}
+
+Document <|.. AsiaDocument
+Document <|.. EuropeDocument
+AsiaDocument <|.. ToyotaDocument
+
+
+@enduml
