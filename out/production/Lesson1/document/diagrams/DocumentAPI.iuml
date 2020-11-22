@@ -1,0 +1,7 @@
+@startuml
+
+!include Document.iuml
+!include DocumentProducer.iuml
+!include DocumentProducerFactory.iuml
+
+@enduml
